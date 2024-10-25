@@ -7,9 +7,9 @@ function App() {
 
   return (
     <div>
-      {/* <Greeter person="Bill" from="Colt"/>
-      <Greeter person="Bruno" from="Colt"/>
-      <Greeter person="Arthur" from="Elton"/> */}
+      <Greeter person="Bill" from="Colt"/>
+      <Greeter from="Colt"/>
+      <Greeter person="Arthur"/>
       <Die numSides={20}/>
       <Die numSides={6}/>
       <Die numSides={10}/>
