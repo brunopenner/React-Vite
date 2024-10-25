@@ -4,6 +4,7 @@ import Greeter from './Greeter'
 import Die from './Die'
 import ListPicker from './ListPicker'
 import DoubleDice from './DoubleDice'
+import Heading from './assets/Heading'
 
 function App() {
 
@@ -17,6 +18,8 @@ function App() {
       <Die numSides={10}/> */}
       {/* <ListPicker values={[1,2,3]} />
       <ListPicker values={["a","b","c"]} /> */}
+      <Heading color="magenta" text="Welcome" fontSize="20px"/>
+      <Heading color="teal" text="blah" fontSize="48px"/>
       <DoubleDice />
       <DoubleDice />
     </div>
