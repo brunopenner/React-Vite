@@ -1,0 +1,7 @@
+.slots .winner span {
+    color: green;
+}
+
+.slots .loser {
+    color: red;
+}

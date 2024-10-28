@@ -6,6 +6,7 @@ import ListPicker from './ListPicker'
 import DoubleDice from './DoubleDice'
 import Heading from './assets/Heading'
 import ColorList from './ColorList'
+import Slots from './Slots'
 
 function App() {
 
@@ -19,12 +20,13 @@ function App() {
       <Die numSides={10}/> */}
       {/* <ListPicker values={[1,2,3]} />
       <ListPicker values={["a","b","c"]} /> */}
-      <Heading color="magenta" text="Welcome" fontSize="20px"/>
+      {/* <Heading color="magenta" text="Welcome" fontSize="20px"/>
       <Heading color="teal" text="blah" fontSize="48px"/>
       <DoubleDice />
       <DoubleDice />
 
-      <ColorList colors={["red", "pink", "purple", "teal"]} />
+      <ColorList colors={["red", "pink", "purple", "teal"]} /> */}
+      <Slots val1={2} val2={2} val3={2}/>
     </div>
   )
 }
