@@ -26,7 +26,7 @@ function App() {
       <DoubleDice />
 
       <ColorList colors={["red", "pink", "purple", "teal"]} /> */}
-      <Slots val1={2} val2={2} val3={2}/>
+      <Slots val1={2} val2={2} val3={1}/>
     </div>
   )
 }
