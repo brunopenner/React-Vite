@@ -12,6 +12,7 @@ import PropertyList from './PropertyList'
 import Clicker from './Clicker'
 import Form from './Form'
 import ClickerExercise from './ClickerExercise'
+import Counter from './Counter'
 
 const data = [
   {id: 1, item: 'eggs', quantity: 12, completed: false},
@@ -33,7 +34,8 @@ function App() {
 
   return (
     <div>
-      <ClickerExercise message={"HI!!!!"} buttonText={"Click Me"}/>
+      <Counter />
+      {/* <ClickerExercise message={"HI!!!!"} buttonText={"Click Me"}/> */}
       {/* <Form />
       <Clicker /> */}
       {/* <PropertyList  properties={properties}/> */}
