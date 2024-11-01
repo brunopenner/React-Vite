@@ -11,6 +11,7 @@ import ShoppingList from "./ShoppingList";
 import PropertyList from './PropertyList'
 import Clicker from './Clicker'
 import Form from './Form'
+import ClickerExercise from './ClickerExercise'
 
 const data = [
   {id: 1, item: 'eggs', quantity: 12, completed: false},
@@ -32,8 +33,9 @@ function App() {
 
   return (
     <div>
-      <Form />
-      <Clicker />
+      <ClickerExercise message={"HI!!!!"} buttonText={"Click Me"}/>
+      {/* <Form />
+      <Clicker /> */}
       {/* <PropertyList  properties={properties}/> */}
       {/* <ShoppingList items={data} /> */}
       {/* <Greeter person="Bill" from="Colt"/>
