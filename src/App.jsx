@@ -36,9 +36,9 @@ function App() {
 
   return (
     <div>
-      <TogglerCounter />
+      {/* <TogglerCounter /> */}
       {/* <Toggler /> */}
-      {/* <Counter /> */}
+      <Counter />
       {/* <ClickerExercise message={"HI!!!!"} buttonText={"Click Me"}/> */}
       {/* <Form />
       <Clicker /> */}
